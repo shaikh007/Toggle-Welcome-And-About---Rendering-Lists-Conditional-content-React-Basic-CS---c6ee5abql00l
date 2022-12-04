@@ -4,11 +4,11 @@ import "../styles/App.css";
 const App = () => {
   const [state, setState] = useState(true)
   const handleToggle = () => {
-       if(state === true) {
-            setState(false)
-       } else {
+    if(state === true) {
+        setState(false)
+    }else {
         setState(true)
-       }
+    }
   }
   return (
     <div id="main">
